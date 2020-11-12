@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo Gourmet</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <div id="main">
+    <h2 id="title">Pense em uma prato que gosta</h2>
+    <button class="default-button" id="btn-start">OK</button>
+    <div id="actions" class="no-actions">
+      <button class="default-button" id="btn-yes">Sim</button>
+      <button class="default-button" id="btn-no">Não</button>
+    </div>
+    <div class="no-actions" id="dish-question-container">
+      <input type="text" id="dish-question">
+      <input type="text" id="dish-reason" class="no-actions">
+      <div>
+        <button class="default-button" id="btn-ok">OK</button>
+        <button class="default-button" id="btn-cancel">Cancelar</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/global.js"></script>
+  <script src="js/methods.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

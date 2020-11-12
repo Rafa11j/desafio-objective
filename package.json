@@ -1,0 +1,15 @@
+{
+  "name": "jogo-gourmet",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "Rafael Japyassu",
+  "dependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1"
+  }
+}

@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#main {
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.default-button {
+  margin: 5px;
+  width: 130px;
+  height: 42px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.default-button:hover {
+  background: #0d47a1;
+}
+
+.no-actions {
+  display: none;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-no, #btn-cancel {
+  background: #999;
+}
+
+#btn-no:hover, #btn-cancel:hover {
+  background: rgb(128, 128, 128);
+}
+
+input {
+  margin: 5px;
+  height: 30px;
+  width: 275px;
+
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.show {
+  display: block;
+}
