@@ -26,6 +26,7 @@ startButton.addEventListener('click', (e) => {
 btnYes.addEventListener('click', (e) => {
   switch (appState.stage) {
     case 1 :
+    case 5 :
       isPasta();
       break;
     case 2:
@@ -46,6 +47,7 @@ btnNo.addEventListener('click', (e) => {
       isNotPasta();
       break;
     case 2:
+    case 5:
     case 10:
     case 11:
       isNotDish();
@@ -56,7 +58,7 @@ btnNo.addEventListener('click', (e) => {
 });
 
 btnOk.addEventListener('click', (e) => {
-  if (appState.stage === 3 || appState.stage === 11) {
+  if (appState.stage === 4 || appState.stage === 11) {
     if (inputQuestion.value === '') {
       alert('Preencha a informação!');
     } else {
